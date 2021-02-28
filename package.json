@@ -1,0 +1,22 @@
+{
+  "name": "thinking-like-a-machine",
+  "version": "1.0.0",
+  "description": "Gnomio assigment 16, Thinking like a machine. A program that takes the user score and checks if it falls in a certain range",
+  "main": "score.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerWithDrip/thinking-like-a-machine.git"
+  },
+  "author": "Lionel Raseemela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackerWithDrip/thinking-like-a-machine/issues"
+  },
+  "homepage": "https://github.com/HackerWithDrip/thinking-like-a-machine#readme",
+  "dependencies": {
+    "jasmine": "^3.6.4"
+  }
+}
