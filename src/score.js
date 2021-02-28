@@ -4,7 +4,9 @@ const prompt = require(`prompt-sync`)();
 
 let scorePredictor = (score = prompt(`Please enter a score: `)) => {
 
-    return `Your score is ${score}`
+    return parseFloat(score)
 }
 
-console.log(scorePredictor());
+// typeof(console.log(scorePredictor()));
+
+module.exports = { scorePredictor }
